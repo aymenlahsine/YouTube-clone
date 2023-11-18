@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <title>YouTube Clone | Aymen LAHSINE</title>
+  </head>
+  <body>
+
+    <!--header-->
+    
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">5</div>
+          <div class="tooltip">notifications</div>
+        </div>
+        <img class="current-user-picture" src="channel-pictures/my-channel.jpg">
+      </div>
+    </header>
+
+    <!--sidebar-->
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="sidebar-icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons/youtube-music.svg">
+        <div>Youtube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+  
+    <!--video grid-->
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc" target="_blank">
+              <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="first-thumbnail">
+            </a>
+            <div class="video-time">6:31:23</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@SuperSimpleDev" target="_blank">
+                  <img class="profile-picture" src="channel-pictures/channel-1.jpg">
+                </a>
+                <div class="profile-picture-tooltip">
+                  <img class="channel-picture-tooltip" src="channel-pictures/channel-1.jpg">
+                  <div>
+                    <div class="channel-name-tooltip">SuperSimpleDev</div>
+                    <div class="channel-subscribers-tooltip">313K subscribers</div></div>
+                  </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  HTML & CSS Full Course - Beginner to Pro
+                </p>
+                <p class="video-author">
+                  SuperSimpleDev
+                </p>
+                <p class="video-stats">
+                  7M views &#183; 1 year ago
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+    
+       
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=17cQGPLbmfQ" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="first-thumbnail">
+            </a>
+            <div class="video-time">8:44</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@PIRATEKINGDOM" target="_blank">
+                  <img class="profile-picture" src="channel-pictures/channel-2.jpg">
+                </a>
+                <div class="profile-picture-tooltip">
+                  <img class="channel-picture-tooltip" src="channel-pictures/channel-2.jpg">
+                  <div>
+                    <div class="channel-name-tooltip">PIRATE KING</div>
+                    <div class="channel-subscribers-tooltip">263K subscribers</div></div>
+                  </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=17cQGPLbmfQ" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  How I would prepare for coding interviews (if I could start over)
+                </p>
+                <p class="video-author">
+                  PIRATE KING
+                </p>
+                <p class="video-stats">
+                  14K views &#183; 8 months ago
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+    
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=9He4UBLyk8Y&t=1s" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnails/thumbnail-3.webp" alt="first-thumbnail">
+            </a>
+            <div class="video-time">12:08</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/c/mkbhd" target="_blank">
+                  <img class="profile-picture" src="channel-pictures/channel-3.jpg">
+                </a>
+                <div class="profile-picture-tooltip">
+                  <img class="channel-picture-tooltip" src="channel-pictures/channel-3.jpg">
+                  <div>
+                    <div class="channel-name-tooltip">FreeCodeCamp.org</div>
+                    <div class="channel-subscribers-tooltip">8.52M subscribers</div></div>
+                  </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=9He4UBLyk8Y&t=1s" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  Front End Developer Roadmap 2024 
+                </p>
+                <p class="video-author">
+                  FreeCodeCamp.org
+                </p>
+                <p class="video-stats">
+                  200K views &#183; 10 days ago
+                </p>
+              </a>           
+            </div>
+          </div>
+        </div>
+    
+       
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=d9GJpHjtjsU" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnails/thumbnail-4.webp" alt="first-thumbnail">
+            </a>
+            <div class="video-time">18:36</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@elkamali" target="_blank">
+                  <img class="profile-picture" src="channel-pictures/channel-4.jpg">
+                </a>
+                <div class="profile-picture-tooltip">
+                  <img class="channel-picture-tooltip" src="channel-pictures/channel-4.jpg">
+                  <div>
+                    <div class="channel-name-tooltip">قناة الشَّيخ سَعيد الكَمَلي</div>
+                    <div class="channel-subscribers-tooltip">2.03M subscribers</div></div>
+                  </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=d9GJpHjtjsU" target="_blank" class="video-title-link">
+                <p class="video-title">  
+                  من أجمل المقاطع في شحذ الهمم لطلب العلم ...كلام من ذهب للشيخ سعيد الكملي
+                </p>
+                <p class="video-author">
+                  قناة الشَّيخ سَعيد الكَمَلي
+                </p>
+                <p class="video-stats">
+                  536k views &#183; 5 years ago
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+    
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=oYRda7UtuhA" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnails/thumbnail-5.webp" alt="first-thumbnail">
+            </a>
+            <div class="video-time">1:11:59</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@GreatStackDev" target="_blank">
+                  <img class="profile-picture" src="channel-pictures/channel-5.jpg">
+                </a>
+                <div class="profile-picture-tooltip">
+                  <img class="channel-picture-tooltip" src="channel-pictures/channel-5.jpg">
+                  <div>
+                    <div class="channel-name-tooltip">GreatStack</div>
+                    <div class="channel-subscribers-tooltip">911K subscribers</div></div>
+                  </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=oYRda7UtuhA" target="_blank" class="video-title-link">
+                <p class="video-title"> 
+                  How To Make Website Using HTML & CSS | Full Responsive Multi Page Website Design Step by Step
+                </p>
+                <p class="video-author">
+                  GreatStack
+                </p>
+                <p class="video-stats">
+                  5.3M views &#183; 2 years ago
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+    
+       
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=zxXXC-vqWng" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnails/thumbnail-6.webp" alt="first-thumbnail">
+            </a>
+            <div class="video-time">11:03</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@SuperSimpleDev" target="_blank">
+                  <img class="profile-picture" src="channel-pictures/channel-1.jpg">
+                </a>
+                <div class="profile-picture-tooltip">
+                  <img class="channel-picture-tooltip" src="channel-pictures/channel-1.jpg">
+                  <div>
+                    <div class="channel-name-tooltip">SuperSimpleDev</div>
+                    <div class="channel-subscribers-tooltip">314K subscribers</div></div>
+                  </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=zxXXC-vqWng" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  Wordpress vs coding - why devs SHOULD learn Wordpress
+                </p>
+                <p class="video-author">
+                  SuperSimpleDev
+                </p>
+                <p class="video-stats">
+                  223K views &#183; 2 years ago
+                </p>
+              </a> 
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=HGTJBPNC-Gw" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnails/thumbnail-7.webp" alt="first-thumbnail">
+            </a>
+            <div class="video-time">4:02:42</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@BroCodez" target="_blank">
+                  <img class="profile-picture" src="channel-pictures/channel-6.jpg">
+                </a>
+                <div class="profile-picture-tooltip">
+                  <img class="channel-picture-tooltip" src="channel-pictures/channel-6.jpg">
+                  <div>
+                    <div class="channel-name-tooltip">Bro Code</div>
+                    <div class="channel-subscribers-tooltip">1.33M subscribers</div></div>
+                  </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=HGTJBPNC-Gw" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  HTML & CSS Full Course for free 🌎 (2023)
+                </p>
+                <p class="video-author">
+                  Bro Code
+                </p>
+                <p class="video-stats">
+                  832K views &#183; 4 months ago
+              </a> 
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=WG5ikvJ2TKA" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnails/thumbnail-8.webp" alt="first-thumbnail">
+            </a>
+            <div class="video-time">5:50</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@SuperSimpleDev" target="_blank">
+                  <img class="profile-picture" src="channel-pictures/channel-1.jpg">
+                </a>
+                <div class="profile-picture-tooltip">
+                  <img class="channel-picture-tooltip" src="channel-pictures/channel-1.jpg">
+                  <div>
+                    <div class="channel-name-tooltip">SuperSimpleDev</div>
+                    <div class="channel-subscribers-tooltip">314K subscribers</div></div>
+                  </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=WG5ikvJ2TKA" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  Frontend web development - a complete overview
+                </p>
+                <p class="video-author">
+                  SuperSimpleDev
+                </p>
+                <p class="video-stats">
+                  234K views &#183; 2 years ago
+                </p>
+              </a> 
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=KJzTaCYIZM4" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnails/thumbnail-9.webp" alt="first-thumbnail">
+            </a>
+            <div class="video-time">36:15</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@ABAlMamun" target="_blank">
+                  <img class="profile-picture" src="channel-pictures/channel-7.jpg">
+                </a>
+                <div class="profile-picture-tooltip">
+                  <img class="channel-picture-tooltip" src="channel-pictures/channel-7.jpg">
+                  <div>
+                    <div class="channel-name-tooltip">Ab Al Mamun</div>
+                    <div class="channel-subscribers-tooltip">57.7K subscribers</div></div>
+                  </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=KJzTaCYIZM4" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  Rhythm of Happiness | Feel Good Nasheeds Collection | No Music Nasheeds
+                </p>
+                <p class="video-author">
+                  Ab Al Mamun
+                </p>
+                <p class="video-stats">
+                  33K views &#183; 1 year ago
+                </p>
+              </a> 
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=p1QU3kLFPdg&t=668s" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnails/thumbnail-10.webp" alt="first-thumbnail">
+            </a>
+            <div class="video-time">29:36</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@SuperSimpleDev" target="_blank">
+                  <img class="profile-picture" src="channel-pictures/channel-1.jpg">
+                </a>
+                <div class="profile-picture-tooltip">
+                  <img class="channel-picture-tooltip" src="channel-pictures/channel-1.jpg">
+                  <div>
+                    <div class="channel-name-tooltip">SuperSimpleDev</div>
+                    <div class="channel-subscribers-tooltip">314K subscribers</div></div>
+                  </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=p1QU3kLFPdg&t=668s" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  How to put an HTML website online (on the Internet)
+                </p>
+                <p class="video-author">
+                  SuperSimpleDev
+                </p>
+                <p class="video-stats">
+                  951K views &#183; 1 year ago
+                </p>
+              </a> 
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=akkYcIikFQs" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnails/thumbnail-11.webp" alt="first-thumbnail">
+            </a>
+            <div class="video-time">9:38</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@TheLastCodebender" target="_blank">
+                  <img class="profile-picture" src="channel-pictures/channel-8.jpg">
+                </a>
+                <div class="profile-picture-tooltip">
+                  <img class="channel-picture-tooltip" src="channel-pictures/channel-8.jpg">
+                  <div>
+                    <div class="channel-name-tooltip">The Codebender</div>
+                    <div class="channel-subscribers-tooltip">44.3K subscribers</div></div>
+                  </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=akkYcIikFQs" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  Get Hired FAST With These 3 Coding Projects
+                </p>
+                <p class="video-author">
+                  The Codebender
+                </p>
+                <p class="video-stats">
+                  1.6K views &#183; 3 days ago
+                </p>
+              </a> 
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=iee-EZoQBU0" target="_blank" class="video-title-link">
+              <img class="thumbnail" src="thumbnails/thumbnail-12.webp" alt="first-thumbnail">
+            </a>
+            <div class="video-time">11:03</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@measures_" target="_blank">
+                  <img class="profile-picture" src="channel-pictures/channel-9.jpg">
+                </a>
+                <div class="profile-picture-tooltip">
+                  <img class="channel-picture-tooltip" src="channel-pictures/channel-9.jpg">
+                  <div>
+                    <div class="channel-name-tooltip">تدابير القرآن</div>
+                    <div class="channel-subscribers-tooltip">20.5K subscribers</div></div>
+                  </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=iee-EZoQBU0" target="_blank" class="video-title-link">
+                <p class="video-title">
+                  من اروع وأجمل ماترنم به الشيخ ناصر القطامي | فجرية الثلاثاء 27-2-1445
+                </p>
+                <p class="video-author">
+                  تدابير القرآن
+                </p>
+                <p class="video-stats">
+                  268K views &#183; 1 month ago
+                </p>
+              </a> 
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
